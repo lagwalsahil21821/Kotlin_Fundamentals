@@ -17,9 +17,9 @@ class SuperHeroDrone: Drone(){
     override fun setOff() {
         move(0.0,15.0 , 0.0)
     }
-    override fun move(front: Double, up: Double, rotate: Double){
+    override fun move(front: Double, up: Double, rotate: Double) {
         println("Superhero is moving")
-        super.move(front,up,rotate)
+        super.move(front, up, rotate)
     }
 }
 

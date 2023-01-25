@@ -25,7 +25,7 @@ class SuperHeroDrone: Drone(){
 }
 
 fun main(){
-    val drone:Drone = SuperHeroDrone()
+    val drone: Drone = SuperHeroDrone()
     println(drone.look)
     drone.setOff()
     drone.move(15.0, 0.0 , 0.0)

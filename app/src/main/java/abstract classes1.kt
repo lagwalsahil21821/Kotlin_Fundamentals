@@ -61,13 +61,17 @@ abstract class ShapeDrawerX{
 
 
 class AndroidShapeDrawerX: ShapeDrawerX() {
-    override fun drawLine(fromX: Int, fromY: Int, toX: Int, toY: Int) { /*...*/ }
+    override fun drawLine(fromX: Int, fromY: Int, toX: Int, toY: Int) { println("Hello we are ready to draw")}
 }
 
 class WebsiteShapeDrawerX: ShapeDrawerX() {
-    override fun drawLine(fromX: Int, fromY: Int, toX: Int, toY: Int) { /*...*/ }
+    override fun drawLine(fromX: Int, fromY: Int, toX: Int, toY: Int) {  }
 }
 
 class TerminalShapeDrawerX: ShapeDrawerX() {
-    override fun drawLine(fromX: Int, fromY: Int, toX: Int, toY: Int) { /*...*/ }
+    override fun drawLine(fromX: Int, fromY: Int, toX: Int, toY: Int) { }
+}
+
+fun main(){
+    val androidDrawer= AndroidShapeDrawerX()
 }

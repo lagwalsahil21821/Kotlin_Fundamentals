@@ -74,4 +74,13 @@ class TerminalShapeDrawerX: ShapeDrawerX() {
 
 fun main(){
     val androidDrawer= AndroidShapeDrawerX()
+    androidDrawer.drawSquare(10,5,2)
+    androidDrawer.drawRectangle(10,5,2,2)
+
+    val websiteDrawer = WebsiteShapeDrawerX()
+    websiteDrawer.drawRectangle(8,4,6,2)
+    val terminalDrawer= TerminalShapeDrawerX()
+    terminalDrawer.drawSquare(10,2,3)
+
+
 }

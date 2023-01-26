@@ -27,5 +27,5 @@ fun main(){
     val sq:ShapeDrawer = AndroidShapeDrawer()
     sq.drawSquare()
     val desktopDrawer:ShapeDrawer = DesktopShapeDrawer()
-    desktopDrawer.drawSquare()
+    desktopDrawer.drawRectangle()
 }

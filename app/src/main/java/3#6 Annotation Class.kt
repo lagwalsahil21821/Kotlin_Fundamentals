@@ -9,16 +9,16 @@ fun divide(a: Int, b: Int): Int{
 }
 
 
-@MyAnnotation("class Annotation")
+/*@MyAnnotation("class Annotation")
 class A(
     @MyAnnotation("Constructor Property Annotation")
     val a: Int
 ){
     @MyAnnotation("Method Annotation")
     fun b(){}
-}
+}*/
 
 fun main(){
-    val a = A(23)
-    print(a)
+//    val a = A(23)
+//    print(a)
 }

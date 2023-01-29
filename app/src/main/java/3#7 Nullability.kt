@@ -5,7 +5,7 @@ class UserA(val name: String)
 
 
 // also used in parameter
-fun processUser(user: User?){}
+fun processUser(user: UserA?){}
 
 // Null pointer Exception: if you try to access a property or function on a
 // variable that is currently a null value it will cause NPE

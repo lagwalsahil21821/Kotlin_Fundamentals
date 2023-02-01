@@ -3,11 +3,11 @@ data class XUser(val name: String)
 
 fun main(){
 //create set collection
-    var set = setOf('A', 'B', 'C')
+    val set = setOf('A', 'B', 'C')
     println(set)
 
 // as The result type is Set<T>, where T is the type of elements in this set.
-    var setA :Set<Long> = setOf(1L, 3L, 5L)
+    val setA :Set<Long> = setOf(1L, 3L, 5L)
     println(setA)
 
 // Adding element to the set

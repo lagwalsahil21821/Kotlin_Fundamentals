@@ -3,10 +3,11 @@ fun main(){
     println("Welcome to your Banking System\nWhat type of account would you like to create")
     println("1. Debit Account\n2. Credit Account\n3. Checking\nChoose an option (1, 2 or 3)")
     var accountType = ""
-    var userChoice:Int = readln().toInt()
-    println("The Selected option is $userChoice")
+    var userChoice = 0
 
     while(accountType == "") {
+        userChoice = readln().toInt()
+        println("The Selected option is $userChoice")
         when(userChoice) {
             1 -> accountType = "Debit"
             2 -> accountType = "Credit"
